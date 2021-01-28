@@ -19,7 +19,7 @@ var userInput = prompt("what tutorial do you want HTML or CSS?", "choose Your To
 
 while (userInput !== 'html'  &&  userInput !== 'css' )
 {
-    userInput = prompt("please enter the correct topic" )
+    userInput = prompt("please enter the correct topic", 'html or css' )
 }
 
 
