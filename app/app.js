@@ -1,5 +1,7 @@
+function UserLevel(){
 var user_level = prompt ('Are You biginner in Webdevelopment?');
 alert("Welcome to our website ")
+
 
 
 if(user_level === 'yes'){
@@ -14,7 +16,8 @@ else if(user_level != 'no' || "") {
 
     alert("you can find useful tutorials in this webpage");
 }
- 
+}
+function UserInput(){
 var userInput = prompt("what tutorial do you want HTML or CSS?", "choose Your Topic")
 
 while (userInput !== 'html'  &&  userInput !== 'css' )
@@ -22,7 +25,9 @@ while (userInput !== 'html'  &&  userInput !== 'css' )
     userInput = prompt("please enter the correct topic", 'html or css' )
 }
 
+}
 
+function UserRate(){
 var User_Rate = prompt('please Rate our website from 1-5')
 star_img = ''; 
 for(i = 1 ; i <= User_Rate ; i++)
@@ -38,3 +43,9 @@ for(i = 1 ; i <= User_Rate ; i++)
 }
 alert('thanks for your rate')
 document.write(star_img)
+}
+UserLevel();
+UserInput();
+UserRate();
+
+
