@@ -49,3 +49,19 @@ UserInput();
 UserRate();
 
 
+   
+        star_img = star_img + '<img src= "img/gold-star-1.jpg" >'
+        console.log(star_img);
+        
+    
+   
+
+}
+alert('thanks for your rate')
+document.write(star_img)
+}
+UserLevel();
+UserInput();
+UserRate();
+
+
