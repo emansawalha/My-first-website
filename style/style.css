@@ -46,6 +46,9 @@ header h2{
 }
 ul li {
     border: transparent;
-    border-color: turquoise;
+    border-color:hsla(211, 100%, 70%, 0.75)
 }
-
+a{
+    text-align: right;
+    text-decoration: darkred;
+}
